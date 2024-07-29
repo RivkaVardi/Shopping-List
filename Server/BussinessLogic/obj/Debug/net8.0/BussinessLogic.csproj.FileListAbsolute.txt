@@ -15,3 +15,21 @@ C:\Users\משתמש\OneDrive\שולחן העבודה\shopping list\Server\Bussin
 C:\Users\משתמש\OneDrive\שולחן העבודה\shopping list\Server\BussinessLogic\obj\Debug\net8.0\ref\BussinessLogic.dll
 C:\Users\משתמש\OneDrive\שולחן העבודה\shopping list\Server\BussinessLogic\bin\Debug\net8.0\Entities.dll
 C:\Users\משתמש\OneDrive\שולחן העבודה\shopping list\Server\BussinessLogic\bin\Debug\net8.0\Entities.pdb
+C:\Users\משתמש\OneDrive\שולחן העבודה\Shopping-List\Server\BussinessLogic\bin\Debug\net8.0\BussinessLogic.deps.json
+C:\Users\משתמש\OneDrive\שולחן העבודה\Shopping-List\Server\BussinessLogic\bin\Debug\net8.0\BussinessLogic.dll
+C:\Users\משתמש\OneDrive\שולחן העבודה\Shopping-List\Server\BussinessLogic\bin\Debug\net8.0\BussinessLogic.pdb
+C:\Users\משתמש\OneDrive\שולחן העבודה\Shopping-List\Server\BussinessLogic\bin\Debug\net8.0\DataAccess.dll
+C:\Users\משתמש\OneDrive\שולחן העבודה\Shopping-List\Server\BussinessLogic\bin\Debug\net8.0\Entities.dll
+C:\Users\משתמש\OneDrive\שולחן העבודה\Shopping-List\Server\BussinessLogic\bin\Debug\net8.0\DataAccess.pdb
+C:\Users\משתמש\OneDrive\שולחן העבודה\Shopping-List\Server\BussinessLogic\bin\Debug\net8.0\Entities.pdb
+C:\Users\משתמש\OneDrive\שולחן העבודה\Shopping-List\Server\BussinessLogic\obj\Debug\net8.0\BussinessLogic.csproj.AssemblyReference.cache
+C:\Users\משתמש\OneDrive\שולחן העבודה\Shopping-List\Server\BussinessLogic\obj\Debug\net8.0\BussinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\משתמש\OneDrive\שולחן העבודה\Shopping-List\Server\BussinessLogic\obj\Debug\net8.0\BussinessLogic.AssemblyInfoInputs.cache
+C:\Users\משתמש\OneDrive\שולחן העבודה\Shopping-List\Server\BussinessLogic\obj\Debug\net8.0\BussinessLogic.AssemblyInfo.cs
+C:\Users\משתמש\OneDrive\שולחן העבודה\Shopping-List\Server\BussinessLogic\obj\Debug\net8.0\BussinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\משתמש\OneDrive\שולחן העבודה\Shopping-List\Server\BussinessLogic\obj\Debug\net8.0\BussinessLogic.sourcelink.json
+C:\Users\משתמש\OneDrive\שולחן העבודה\Shopping-List\Server\BussinessLogic\obj\Debug\net8.0\Bussines.273F0448.Up2Date
+C:\Users\משתמש\OneDrive\שולחן העבודה\Shopping-List\Server\BussinessLogic\obj\Debug\net8.0\BussinessLogic.dll
+C:\Users\משתמש\OneDrive\שולחן העבודה\Shopping-List\Server\BussinessLogic\obj\Debug\net8.0\refint\BussinessLogic.dll
+C:\Users\משתמש\OneDrive\שולחן העבודה\Shopping-List\Server\BussinessLogic\obj\Debug\net8.0\BussinessLogic.pdb
+C:\Users\משתמש\OneDrive\שולחן העבודה\Shopping-List\Server\BussinessLogic\obj\Debug\net8.0\ref\BussinessLogic.dll

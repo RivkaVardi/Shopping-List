@@ -3225,11 +3225,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\משתמש\\OneDrive\\שולחן העבודה\\shopping list\\Server\\Server\\Server.csproj",
+      "projectUniqueName": "C:\\Users\\משתמש\\OneDrive\\שולחן העבודה\\Shopping-List\\Server\\Server\\Server.csproj",
       "projectName": "Server",
-      "projectPath": "C:\\Users\\משתמש\\OneDrive\\שולחן העבודה\\shopping list\\Server\\Server\\Server.csproj",
+      "projectPath": "C:\\Users\\משתמש\\OneDrive\\שולחן העבודה\\Shopping-List\\Server\\Server\\Server.csproj",
       "packagesPath": "C:\\Users\\משתמש\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\משתמש\\OneDrive\\שולחן העבודה\\shopping list\\Server\\Server\\obj\\",
+      "outputPath": "C:\\Users\\משתמש\\OneDrive\\שולחן העבודה\\Shopping-List\\Server\\Server\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\משתמש\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3247,11 +3247,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\משתמש\\OneDrive\\שולחן העבודה\\shopping list\\Server\\BussinessLogic\\BussinessLogic.csproj": {
-              "projectPath": "C:\\Users\\משתמש\\OneDrive\\שולחן העבודה\\shopping list\\Server\\BussinessLogic\\BussinessLogic.csproj"
+            "C:\\Users\\משתמש\\OneDrive\\שולחן העבודה\\Shopping-List\\Server\\BussinessLogic\\BussinessLogic.csproj": {
+              "projectPath": "C:\\Users\\משתמש\\OneDrive\\שולחן העבודה\\Shopping-List\\Server\\BussinessLogic\\BussinessLogic.csproj"
             },
-            "C:\\Users\\משתמש\\OneDrive\\שולחן העבודה\\shopping list\\Server\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\משתמש\\OneDrive\\שולחן העבודה\\shopping list\\Server\\Entities\\Entities.csproj"
+            "C:\\Users\\משתמש\\OneDrive\\שולחן העבודה\\Shopping-List\\Server\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\משתמש\\OneDrive\\שולחן העבודה\\Shopping-List\\Server\\Entities\\Entities.csproj"
             }
           }
         }

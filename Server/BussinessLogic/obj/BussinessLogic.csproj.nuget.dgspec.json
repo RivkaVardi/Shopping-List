@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\משתמש\\OneDrive\\שולחן העבודה\\shopping list\\Server\\BussinessLogic\\BussinessLogic.csproj": {}
+    "C:\\Users\\משתמש\\OneDrive\\שולחן העבודה\\Shopping-List\\Server\\BussinessLogic\\BussinessLogic.csproj": {}
   },
   "projects": {
-    "C:\\Users\\משתמש\\OneDrive\\שולחן העבודה\\shopping list\\Server\\BussinessLogic\\BussinessLogic.csproj": {
+    "C:\\Users\\משתמש\\OneDrive\\שולחן העבודה\\Shopping-List\\Server\\BussinessLogic\\BussinessLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\משתמש\\OneDrive\\שולחן העבודה\\shopping list\\Server\\BussinessLogic\\BussinessLogic.csproj",
+        "projectUniqueName": "C:\\Users\\משתמש\\OneDrive\\שולחן העבודה\\Shopping-List\\Server\\BussinessLogic\\BussinessLogic.csproj",
         "projectName": "BussinessLogic",
-        "projectPath": "C:\\Users\\משתמש\\OneDrive\\שולחן העבודה\\shopping list\\Server\\BussinessLogic\\BussinessLogic.csproj",
+        "projectPath": "C:\\Users\\משתמש\\OneDrive\\שולחן העבודה\\Shopping-List\\Server\\BussinessLogic\\BussinessLogic.csproj",
         "packagesPath": "C:\\Users\\משתמש\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\משתמש\\OneDrive\\שולחן העבודה\\shopping list\\Server\\BussinessLogic\\obj\\",
+        "outputPath": "C:\\Users\\משתמש\\OneDrive\\שולחן העבודה\\Shopping-List\\Server\\BussinessLogic\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\משתמש\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\משתמש\\OneDrive\\שולחן העבודה\\shopping list\\Server\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\משתמש\\OneDrive\\שולחן העבודה\\shopping list\\Server\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\משתמש\\OneDrive\\שולחן העבודה\\Shopping-List\\Server\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\משתמש\\OneDrive\\שולחן העבודה\\Shopping-List\\Server\\DataAccess\\DataAccess.csproj"
               }
             }
           }
@@ -69,14 +69,14 @@
         }
       }
     },
-    "C:\\Users\\משתמש\\OneDrive\\שולחן העבודה\\shopping list\\Server\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\משתמש\\OneDrive\\שולחן העבודה\\Shopping-List\\Server\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\משתמש\\OneDrive\\שולחן העבודה\\shopping list\\Server\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\משתמש\\OneDrive\\שולחן העבודה\\Shopping-List\\Server\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\משתמש\\OneDrive\\שולחן העבודה\\shopping list\\Server\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\משתמש\\OneDrive\\שולחן העבודה\\Shopping-List\\Server\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\משתמש\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\משתמש\\OneDrive\\שולחן העבודה\\shopping list\\Server\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\משתמש\\OneDrive\\שולחן העבודה\\Shopping-List\\Server\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\משתמש\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -94,8 +94,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\משתמש\\OneDrive\\שולחן העבודה\\shopping list\\Server\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\משתמש\\OneDrive\\שולחן העבודה\\shopping list\\Server\\Entities\\Entities.csproj"
+              "C:\\Users\\משתמש\\OneDrive\\שולחן העבודה\\Shopping-List\\Server\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\משתמש\\OneDrive\\שולחן העבודה\\Shopping-List\\Server\\Entities\\Entities.csproj"
               }
             }
           }
@@ -134,14 +134,14 @@
         }
       }
     },
-    "C:\\Users\\משתמש\\OneDrive\\שולחן העבודה\\shopping list\\Server\\Entities\\Entities.csproj": {
+    "C:\\Users\\משתמש\\OneDrive\\שולחן העבודה\\Shopping-List\\Server\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\משתמש\\OneDrive\\שולחן העבודה\\shopping list\\Server\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\משתמש\\OneDrive\\שולחן העבודה\\Shopping-List\\Server\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\משתמש\\OneDrive\\שולחן העבודה\\shopping list\\Server\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\משתמש\\OneDrive\\שולחן העבודה\\Shopping-List\\Server\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\משתמש\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\משתמש\\OneDrive\\שולחן העבודה\\shopping list\\Server\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\משתמש\\OneDrive\\שולחן העבודה\\Shopping-List\\Server\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\משתמש\\AppData\\Roaming\\NuGet\\NuGet.Config",

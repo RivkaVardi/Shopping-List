@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rGQ9jflaoJI=",
+  "dgSpecHash": "zW7iFsslqvo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\משתמש\\OneDrive\\שולחן העבודה\\shopping list\\Server\\BussinessLogic\\BussinessLogic.csproj",
+  "projectFilePath": "C:\\Users\\משתמש\\OneDrive\\שולחן העבודה\\Shopping-List\\Server\\BussinessLogic\\BussinessLogic.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\משתמש\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\משתמש\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
