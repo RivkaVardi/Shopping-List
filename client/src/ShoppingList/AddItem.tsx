@@ -27,7 +27,8 @@ const AddItem: React.FC = () => {
 
     const add = (e: React.FormEvent) => {
         e.preventDefault();
-        const item: Item = { itemName: name, categoryId: category, amount: 1 };
+        const categoryName = categories.find(x=> x.id===category)!.categoryName;
+        const item: Item = { itemName: name, categoryId: category, amount: 1, categoryName:categoryName };
         itemStore.addItem(item);
         setName('');
         setCategory(0);

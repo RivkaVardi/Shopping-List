@@ -14,7 +14,7 @@ const ViewItems: React.FC = observer(() => {
         <div key={category}>
           <h3>{category}</h3>
           <ul>
-            {items[Number(category)].map((item, index) => (
+            {items[category].map((item, index) => (
               item.amount === 1 ? (
                 <li key={index}>{item.itemName}</li>
               ):(

@@ -7,5 +7,6 @@ export interface Item{
     id?: number,
     categoryId: number,
     itemName: string,
-    amount: number
+    amount: number,
+    categoryName: string
 }

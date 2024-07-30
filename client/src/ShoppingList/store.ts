@@ -4,7 +4,7 @@ import { Item } from './types';
 
 class ItemStore {
 
-    items: Record<number, Item[]> = {};
+    items: Record<string, Item[]> = {};
     totalItems: number = 0;
 
     constructor() {
@@ -13,14 +13,14 @@ class ItemStore {
 
     addItem(item: Item) {
         this.totalItems++;
-        if (!this.items[item.categoryId]) {
-            this.items[item.categoryId] = [];
+        if (!this.items[item.categoryName]) {
+            this.items[item.categoryName] = [];
         }
-        const existItem = this.items[item.categoryId].find(x => x.itemName === item.itemName);
+        const existItem = this.items[item.categoryName].find(x => x.itemName === item.itemName);
         if (existItem)
             existItem.amount++;
         else
-            this.items[item.categoryId].push(item);
+            this.items[item.categoryName].push(item);
     }
 }
 
