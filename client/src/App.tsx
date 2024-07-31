@@ -6,7 +6,9 @@ import SaveButton from './ShoppingList/SaveButton';
 
 const App: React.FC = () => {
   return (
-    <div>
+    <div className="App">
+      <h1>רשימת קניות</h1>
+      <br/>
       <AddItem></AddItem>
       <ViewItems></ViewItems>
       <SaveButton></SaveButton>

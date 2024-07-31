@@ -28,4 +28,3 @@ const itemStore = new ItemStore();
 const ItemStoreContext = createContext(itemStore);
 
 export const useItemStore = () => useContext(ItemStoreContext);
-// export default itemStore;

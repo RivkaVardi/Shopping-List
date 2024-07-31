@@ -16,19 +16,18 @@ const SaveButton: React.FC = observer(() => {
                 },
                 body: JSON.stringify(itemsArray),
             });
-
             if (response.ok) {
-                alert("List saved successfully!");
-                //   store.clearList();
+                alert('הרשימה נשמרה בהצלחה');
             } else {
-                alert("Failed to save the list.");
+                alert("שמירה נכשלה");
             }
         } catch (error) {
             console.error("Error saving list:", error);
-            alert("An error occurred while saving the list.");
+            alert('ארעה שגיאה בעת שמירת הרשימה');
         }
     }
-    return <button onClick={save}>שמור</button>
+    
+    return <button onClick={save} className='btn btn-light'>שמור</button>
 });
 
 export default SaveButton;
