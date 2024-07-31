@@ -1,5 +1,5 @@
 ﻿using DataAccess;
-using Entities.DBModels;
+using Entities;
 
 namespace BussinessLogic
 {
@@ -10,10 +10,12 @@ namespace BussinessLogic
         {
             this.repository = repository;
         }
-        public Task<List<Category>> GetAllCategoriesAsync()
+
+        public async Task<List<Category>> GetAllCategoriesAsync()
         {
-            return repository.GetAllCategoriesAsync();
+            return await repository.GetAllCategoriesAsync();
         }
+
         public async Task SaveItemsAsync(List<Item> items)
         {
             await repository.SaveItemsAsync(items);

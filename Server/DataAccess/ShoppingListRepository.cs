@@ -1,20 +1,21 @@
-﻿using Entities.DBModels;
+﻿using Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace DataAccess
 {
     public class ShoppingListRepository : IShoppingListRepository
     {
-        ShoppingListContext dbContext;
-        public ShoppingListRepository(ShoppingListContext dbContext)
+        ShoppingListDbContext dbContext;
+        public ShoppingListRepository(ShoppingListDbContext dbContext)
         {
             this.dbContext = dbContext;
         }
 
-        public Task<List<Category>> GetAllCategoriesAsync()
+        public async Task<List<Category>> GetAllCategoriesAsync()
         {
-            return dbContext.Categories.ToListAsync();
+            return await dbContext.Categories.ToListAsync();
         }
+
         public async Task SaveItemsAsync(List<Item> items)
         {
             dbContext.Items.AddRange(items);

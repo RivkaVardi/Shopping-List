@@ -1,5 +1,7 @@
-﻿using BussinessLogic;
-using Entities.DBModels;
+﻿using AutoMapper;
+using BussinessLogic;
+using Entities;
+using Entities.DTO;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -10,20 +12,24 @@ namespace Server.Controllers
     public class ShoppingListController : ControllerBase
     {
         IShoppingListService service;
-        public ShoppingListController(IShoppingListService service)
+        IMapper mapper;
+        public ShoppingListController(IShoppingListService service, IMapper mapper)
         {
             this.service = service; 
+            this.mapper = mapper;
         }
 
         [HttpGet]
-        public Task<List<Category>> GetAllCategoriesAsync()
+        public async Task<List<CategoryDto>> GetAllCategoriesAsync()
         {
-            return service.GetAllCategoriesAsync();
+            var categories =  await service.GetAllCategoriesAsync();
+            return mapper.Map<List<CategoryDto>>(categories);
         }
 
         [HttpPost]
-        public async Task SaveItemsAsync(List<Item> items)
+        public async Task SaveItemsAsync(List<ItemDto> itemsDto)
         {
+            var items = mapper.Map<List<Item>>(itemsDto);
             await service.SaveItemsAsync(items);
         }
     }

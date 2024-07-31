@@ -1,7 +1,9 @@
+using AutoMapper;
 using BussinessLogic;
 using DataAccess;
-using Entities.DBModels;
+using Entities;
 using Microsoft.EntityFrameworkCore;
+using Server;
 
 var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 var builder = WebApplication.CreateBuilder(args);
@@ -15,10 +17,15 @@ builder.Services.AddCors(options =>
                           policy.WithOrigins("http://localhost:3000").AllowAnyHeader().AllowAnyMethod();
                       });
 });
+var mapperConfig = new MapperConfiguration(mc => {
+    mc.AddProfile(new MappingProfile());
+});
+IMapper mapper = mapperConfig.CreateMapper();
+builder.Services.AddSingleton(mapper);
 builder.Services.AddControllers();
 builder.Services.AddScoped<IShoppingListService, ShoppingListService>();
 builder.Services.AddScoped<IShoppingListRepository, ShoppingListRepository>();
-builder.Services.AddDbContext<ShoppingListContext>(options =>
+builder.Services.AddDbContext<ShoppingListDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
 );
 builder.Services.AddEndpointsApiExplorer();

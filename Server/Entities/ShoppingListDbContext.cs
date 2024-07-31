@@ -2,15 +2,15 @@
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 
-namespace Entities.DBModels;
+namespace Entities;
 
-public partial class ShoppingListContext : DbContext
+public partial class ShoppingListDbContext : DbContext
 {
-    public ShoppingListContext()
+    public ShoppingListDbContext()
     {
     }
 
-    public ShoppingListContext(DbContextOptions<ShoppingListContext> options)
+    public ShoppingListDbContext(DbContextOptions<ShoppingListDbContext> options)
         : base(options)
     {
     }
@@ -19,15 +19,11 @@ public partial class ShoppingListContext : DbContext
 
     public virtual DbSet<Item> Items { get; set; }
 
-//    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-//#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-//        => optionsBuilder.UseSqlServer("Server=DESKTOP-L82J32T;Database=shoppingList;Trusted_Connection=True;");
-
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Category>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Categori__3213E83F519F022D");
+            entity.HasKey(e => e.Id).HasName("PK__Categori__3213E83F469BFF55");
 
             entity.Property(e => e.Id).HasColumnName("id");
             entity.Property(e => e.CategoryName)
@@ -38,7 +34,7 @@ public partial class ShoppingListContext : DbContext
 
         modelBuilder.Entity<Item>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Items__3213E83FE47D48DE");
+            entity.HasKey(e => e.Id).HasName("PK__Items__3213E83F75EDFCD0");
 
             entity.Property(e => e.Id).HasColumnName("id");
             entity.Property(e => e.Amount).HasColumnName("amount");
@@ -50,7 +46,8 @@ public partial class ShoppingListContext : DbContext
 
             entity.HasOne(d => d.Category).WithMany(p => p.Items)
                 .HasForeignKey(d => d.CategoryId)
-                .HasConstraintName("FK__Items__category___3C69FB99");
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK__Items__category___398D8EEE");
         });
 
         OnModelCreatingPartial(modelBuilder);

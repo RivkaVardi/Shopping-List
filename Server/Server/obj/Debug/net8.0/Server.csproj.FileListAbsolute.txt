@@ -151,3 +151,4 @@ C:\Users\משתמש\OneDrive\שולחן העבודה\Shopping-List\Server\Server
 C:\Users\משתמש\OneDrive\שולחן העבודה\Shopping-List\Server\Server\obj\Debug\net8.0\Server.pdb
 C:\Users\משתמש\OneDrive\שולחן העבודה\Shopping-List\Server\Server\obj\Debug\net8.0\Server.genruntimeconfig.cache
 C:\Users\משתמש\OneDrive\שולחן העבודה\Shopping-List\Server\Server\obj\Debug\net8.0\ref\Server.dll
+C:\Users\משתמש\OneDrive\שולחן העבודה\Shopping-List\Server\Server\bin\Debug\net8.0\AutoMapper.dll
