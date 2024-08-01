@@ -20,7 +20,6 @@ const AddItem: React.FC = () => {
                 const data: Category[] = await response.json();
                 setCategories(data);
             } catch (error) {
-                alert('ארעה שגיאה')
                 console.error('Error fetching categories:', error);
             }
         };
