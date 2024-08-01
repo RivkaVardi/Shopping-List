@@ -2,7 +2,6 @@
 using BussinessLogic;
 using Entities;
 using Entities.DTO;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Server.Controllers

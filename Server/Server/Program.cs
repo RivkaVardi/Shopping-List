@@ -17,7 +17,8 @@ builder.Services.AddCors(options =>
                           policy.WithOrigins("http://localhost:3000").AllowAnyHeader().AllowAnyMethod();
                       });
 });
-var mapperConfig = new MapperConfiguration(mc => {
+var mapperConfig = new MapperConfiguration(mc =>
+{
     mc.AddProfile(new MappingProfile());
 });
 IMapper mapper = mapperConfig.CreateMapper();

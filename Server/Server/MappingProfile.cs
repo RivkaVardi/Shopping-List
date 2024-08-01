@@ -4,7 +4,7 @@ using Entities.DTO;
 
 namespace Server
 {
-    public class MappingProfile: Profile
+    public class MappingProfile : Profile
     {
         public MappingProfile()
         {
